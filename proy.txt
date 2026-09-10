@@ -1,0 +1,69 @@
+    "Tienda en linea"
+crea 3 interfaces que funcionen con php y ngrok:
+Pantalla de login
+Dashboard del administrador
+Catálogo de productos
+--------------
+Pantalla de login
+El sistema debe incluir una pantalla de inicio de sesión donde se solicite:
+
+Usuario
+Contraseña
+Las credenciales válidas serán:
+
+Usuario	Contraseña	Tipo
+administrador	asd	Administrador
+cliente	123	Cliente
+La validación de credenciales deberá realizarse en PHP.
+utiliza una interfaz 
+
+-----------
+Dashboard del administrador
+Cuando el usuario sea administrador, el sistema deberá mostrar un dashboard que incluya al menos:
+
+Una gráfica con información del sistema
+
+La gráfica puede mostrar por ejemplo:
+
+Ventas
+
+Productos
+
+Distribución de datos
+
+Puede utilizarse alguna biblioteca como:
+
+Chart.js
+
+Google Charts
+
+----
+Vista del cliente
+Cuando el usuario sea cliente, el sistema deberá mostrar un catálogo de productos.
+
+Cada producto debe mostrar al menos:
+
+Nombre
+
+Precio
+
+Existencias
+
+Imagen del producto
+
+El cliente podrá seleccionar productos para simular una compra.
+---------
+indicaciones adicionales:
+
+-no usar base de datos(mysq o similar)
+-Si las credenciales ingresadas no son correctas, 
+el sistema debe mostrar una página de error indicando
+ que el usuario o contraseña son inválidos.
+-no ser demasiado complejo
+-crea 5 productos de ejemplo
+ -con una ruta para colocar las imagenes en el codigo.
+-interfaz con bootstrap (no demasiado compleja).
+-indicaciones de los pasos para ejecutarlo en laragon y ngrok.
+
+
+
